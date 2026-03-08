@@ -55,7 +55,7 @@ Item {
     Rectangle {
       height: layout.height
       width: thefeed.width
-      color: PlasmaCore.Theme.viewBackgroundColor
+      color: Kirigami.Theme.backgroundColor
       Component.onCompleted: busyIndicator.isBusy = false
 
       Item {
@@ -69,7 +69,7 @@ Item {
               width: thefeed.width
               wrapMode: Text.WordWrap
               font.pixelSize: 12
-              color: PlasmaCore.Theme.textColor
+              color: Kirigami.Theme.textColor
               font.bold: true
               text: title
             }
@@ -89,7 +89,7 @@ Item {
               width: thefeed.width
               wrapMode: Text.WordWrap
               font.pixelSize: 12
-              color: PlasmaCore.Theme.textColor
+              color: Kirigami.Theme.textColor
               font.bold: false
               text: stripString(description)
             }
@@ -97,7 +97,7 @@ Item {
           Row {
             Rectangle {
               width: thefeed.width
-              color: PlasmaCore.Theme.textColor
+              color: Kirigami.Theme.textColor
               height: 1
             }
           }
@@ -119,7 +119,7 @@ Item {
     Rectangle {
       width: thefeed.width
       height: 19
-      color: PlasmaCore.Theme.viewBackgroundColor
+      color: Kirigami.Theme.backgroundColor
       Item {
         width: thefeed.width
         height: 19
